@@ -14,6 +14,10 @@ public class Medication {
     private String notes;
     private boolean enableReminders;
 
+    public Medication(){
+
+    }
+
     public Medication(long id, String medicationName, String dosage, String dosageUnit,
                       String methodOfConsumption, String frequencyType, List<String> specificTimes,
                       String startDate, String endDate, String notes, boolean enableReminders) {
